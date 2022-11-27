@@ -81,23 +81,25 @@ viewCartBtn.addEventListener("click", function () {
     </div>
     <div class="col-md-4">
       <div class="input-group">
-        <button class="btn btn-default border-success border-1 minus">
+        <button class="btn btn-default minus">
           <i class="ri-subtract-line"></i>
         </button>
         <input
           type="number"
           class="form-control number-input"
           id="product-amount-1"
+          style="border-radius:10px"
+          
          
         />
-        <button class="btn btn-default border-success border-1 plus">
+        <button class="btn btn-default plus">
           <i class="ri-add-line"></i>
         </button>
       </div>
     </div>
     <div class="col-md-2 text-end">
-      <span class="product_price fw-bold fs-4 mx-2" id="p_${product.priceId}"
-        >0.00</span
+      <span class="product_price fw-bold fs-4 mx-2" 
+        >$<span id="p_${product.priceId}">0.00</span></span
       >
       <button class="btn btn-default fs-2 text-danger cross">
       <i class="ri-close-circle-fill"></i>
