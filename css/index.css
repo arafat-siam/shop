@@ -1,0 +1,46 @@
+.login_page_content {
+  height: 100vh;
+}
+
+.form-box {
+  background-color: rgba(240, 248, 255, 0.886);
+}
+
+/* Add product */
+.addProduct {
+  height: 100vh;
+}
+
+/* Add product */
+.cart-box {
+  background-color: rgba(215, 254, 215, 0.792);
+  margin: 5px 0px;
+  padding: 5px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.cart-box img {
+  width: 20%;
+}
+.product-box {
+  background-color: rgba(240, 248, 255, 0.684);
+  border-radius: 10px;
+}
+
+.product-box p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-box:hover {
+  transform: scale(1.06);
+  transition: 0.4s;
+}
+
+.number-input {
+  border: 0.4px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
