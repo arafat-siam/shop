@@ -79,17 +79,15 @@ viewCartBtn.addEventListener("click", function () {
       <img src="${pImg}" class="col-md-3" />
       <h3 class="col-md-9 text-center">${pName}</h3>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="input-group">
         <button class="btn btn-default minus">
           <i class="ri-subtract-line"></i>
         </button>
         <input
           type="number"
-          class="form-control number-input"
+          class="form-control number-input rounded-2"
           id="product-amount-1"
-          style="border-radius:10px"
-          
          
         />
         <button class="btn btn-default plus">
@@ -97,9 +95,9 @@ viewCartBtn.addEventListener("click", function () {
         </button>
       </div>
     </div>
-    <div class="col-md-2 text-end">
-      <span class="product_price fw-bold fs-4 mx-2" 
-        >$<span id="p_${product.priceId}">0.00</span></span
+    <div class="col-md-3 text-end fs-4">$
+      <span class="product_price fw-bold fs-4 mx-2" id="p_${product.priceId}"
+        >0.00</span
       >
       <button class="btn btn-default fs-2 text-danger cross">
       <i class="ri-close-circle-fill"></i>
